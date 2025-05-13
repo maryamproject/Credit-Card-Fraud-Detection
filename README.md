@@ -1,7 +1,7 @@
 # Credit Card Fraud Detection Using Machine Learning
 This project applies machine learning techniques to detect fraudulent credit card transactions and  then evaluates the machine learning models against performance metrics.
 # Project Overview
-Credit card fraud is an increasing problem, and detecting fraudulent transactions is crucial for financial security. This project explores fraud detection currently using logistic regression and will later incorporate other machine learning models. The dataset used contains various transaction details such as distance from home, purchase amount, and usage of PIN or chip, along with a feature indicating whether the transaction was fraudulent.
+Credit card fraud is an increasing problem, and detecting fraudulent transactions is crucial for financial security. This project explores fraud detection  using Logistic Regression, Naive Bayes, and Decision Trees. To address the challenge of class imbalance, common in fraud detection tasks, two resampling techniques were applied: SMOTE (Synthetic Minority Over-sampling Technique) to generate synthetic minority class samples, and RandomUnderSampler to reduce the size of the majority class The dataset used contains various transaction details such as distance from home, purchase amount, and usage of PIN or chip, along with a feature indicating whether the transaction was fraudulent.
 # Features of This Project
 - Exploratory Data Analysis (EDA) – Histograms, boxplots, and data distributions to understand transaction behavior.
 - Data Preprocessing – Checking for missing values, feature scaling, and renaming columns for clarity.
